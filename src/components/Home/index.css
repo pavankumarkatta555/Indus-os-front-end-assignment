@@ -1,0 +1,91 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.home-bg {
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 32px;
+}
+
+.nav-bg {
+  background-color: #7683cb;
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.nav-heading {
+  color: #454f84;
+  padding-left: 48px;
+}
+
+form {
+  padding: 48px;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+input {
+  width: 50%;
+  height: 40px;
+  background-color: #c3caea;
+  color: darkslategray;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+p {
+  color: darkslategrey;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+button {
+  margin-top: 24px;
+  background-color: #454f84;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  width: 8%;
+  height: 28px;
+}
+
+.output-container {
+  width: 75%;
+  padding-left: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  width: 50%;
+  background-color: #c3caea;
+  color: darkslategray;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 20px;
+}
